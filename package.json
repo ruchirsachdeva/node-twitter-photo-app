@@ -1,0 +1,40 @@
+{
+  "name": "node-twitter-photo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruchirsachdeva/node-twitter-photo-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruchirsachdeva/node-twitter-photo-app/issues"
+  },
+  "homepage": "https://github.com/ruchirsachdeva/node-twitter-photo-app#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "blob": "0.0.5",
+    "body-parser": "^1.18.3",
+    "core-js": "^2.5.4",
+    "cors": "^2.8.5",
+    "express-fileupload": "^1.1.1-alpha.1",
+    "express-session": "^1.15.6",
+    "filereader": "^0.10.3",
+    "multer": "^1.4.1",
+    "node-twitter-api": "^1.8.0",
+    "rxjs": "~6.3.3",
+    "stream-buffers": "^3.0.2",
+    "twit": "^2.2.11"
+  },
+  "engines": {
+    "node": "8.9.4",
+    "npm": "6.4.1"
+  }
+}
