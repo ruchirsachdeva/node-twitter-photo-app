@@ -330,7 +330,7 @@ app.post('/api/my/media', (req, res) => {
 
   var accessToken = '212347172-8XMAeyunbfcadQQ36ZIkgMnNdaWewQxIY5KrYjRO';
   var accessTokenSecret = 'YUAOVks4tOMUmcJMhTi5DhUOmdDXTgWysg5WjJePd1nUu';
-  var status = 'status';
+  var status =  req.body.status;
 
 
 // The name of the input field (i.e. "sampleFile") is used to retrieve the uploaded file
